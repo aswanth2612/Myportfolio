@@ -1,0 +1,54 @@
+#navbar {
+  position: relative !important;
+  width: 100%;
+  border-color: transparent;
+}
+
+.skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.heading {
+  cursor: pointer;
+  font-family: sans-serif;
+  color: blue;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  gap: 25px;
+  border: steelblue 5px solid;
+  cursor: pointer;
+  img {
+    width: 40px;
+
+  }
+  span {
+    padding: 10px;
+  }
+}
+
+.set1 {
+  padding: 10px;
+  margin: 50px;
+}
+
+.set2 {
+  padding: 10px;
+  margin: 50px;
+}
+
+.set3 {
+  padding: 10px;
+  margin: 50px;
+}

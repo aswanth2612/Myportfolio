@@ -1,0 +1,49 @@
+#navbar {
+  position: fixed !important;
+  width: 100%;
+  border-color: transparent;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  border: black solid;
+  background-color: dodgerblue;
+  opacity: 0.9;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: dodgerblue;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  padding: 20px;
+  margin-left: 100px;
+  color: #000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#home:hover {
+  cursor: pointer;
+  border: 2px;
+}
+
+#Contact:hover {
+  cursor: pointer;
+}
+#Skills:hover {
+  cursor: pointer;
+}
+#Projects:hover {
+  cursor: pointer;
+}
+
+.collapse navbar-collapse {
+  display: flex;
+  flex-direction: row;
+}
